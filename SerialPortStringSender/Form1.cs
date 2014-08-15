@@ -21,6 +21,10 @@ namespace SerialPortStringSender
             serialConnection = new SerialConnection();
             serialConnection.SerialPortStateChangedEvent += serialPortStateChanged;
             closeButton.Enabled = false;
+            sendStringTextBox.Multiline = true;
+            sendStringTextBox.AcceptsTab = true;
+            sendStringTextBox.AcceptsReturn = false;
+            this.AcceptButton = sendButton;
         }
 
         private void serialPortStateChanged() {

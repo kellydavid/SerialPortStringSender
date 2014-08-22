@@ -107,7 +107,7 @@
             this.Controls.Add(this.sendStringTextBox);
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "SerialPortStringSender";
-            this.Text = "SerialPortStringSender";
+            this.Text = "Serial Port String Sender";
             this.ResumeLayout(false);
             this.PerformLayout();
 
